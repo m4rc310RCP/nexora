@@ -1,0 +1,17 @@
+{
+	"name": "@nexora/plugin-runtime",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc"
+	},
+	"dependencies": {
+		"@nexora/plugin-sdk": "workspace:*"
+	},
+	"devDependencies": {
+		"typescript": "~6.0.2"
+	}
+}

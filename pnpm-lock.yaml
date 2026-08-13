@@ -20,6 +20,16 @@ importers:
         specifier: ~6.0.2
         version: 6.0.3
 
+  packages/plugin-runtime:
+    dependencies:
+      '@nexora/plugin-sdk':
+        specifier: workspace:*
+        version: link:../plugin-sdk
+    devDependencies:
+      typescript:
+        specifier: ~6.0.2
+        version: 6.0.3
+
   packages/plugin-sdk:
     devDependencies:
       typescript:

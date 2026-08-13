@@ -1,0 +1,10 @@
+{
+	"name": "nexora",
+	"version": "0.1.0",
+	"private": true,
+	"packageManager": "pnpm@11.21.0",
+	"scripts": {
+		"dev": "pnpm --parallel --filter @nexora/server --filter @nexora/web dev",
+		"build": "pnpm -r build"
+	}
+}

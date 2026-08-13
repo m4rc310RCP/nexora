@@ -1,0 +1,16 @@
+{
+	"name": "@nexora/plugin-hello",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "tsc"
+	},
+	"dependencies": {
+		"@nexora/plugin-sdk": "workspace:*"
+	},
+	"devDependencies": {
+		"typescript": "~6.0.2"
+	}
+}

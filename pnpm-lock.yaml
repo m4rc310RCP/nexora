@@ -9,6 +9,10 @@ importers:
   .: {}
 
   apps/server:
+    dependencies:
+      '@nexora/plugin-runtime':
+        specifier: workspace:*
+        version: link:../../packages/plugin-runtime
     devDependencies:
       '@types/node':
         specifier: ^24.0.0

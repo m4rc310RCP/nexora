@@ -8,7 +8,9 @@
 		"build": "tsc",
 		"start": "node dist/index.js"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"@nexora/plugin-runtime": "workspace:*"
+	},
 	"devDependencies": {
 		"@types/node": "^24.0.0",
 		"tsx": "^4.20.0",
